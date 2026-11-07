@@ -1,0 +1,13 @@
+{
+  "name": "tigerdata-realtime-ai-analytics",
+  "version": "1.0.0",
+  "description": "Real-time industrial IoT streaming analytics, hybrid pgvector RAG search, and MCP server powered by Tiger Data Cloud (TimescaleDB)",
+  "type": "module",
+  "scripts": {
+    "start": "node src/streaming-dashboard.mjs",
+    "mcp": "node src/mcp-server.mjs",
+    "demo": "node src/mcp-server.mjs --demo"
+  },
+  "author": "Prince Jain",
+  "license": "MIT"
+}
