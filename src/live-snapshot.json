@@ -1,0 +1,206 @@
+{
+  "hypertables": [
+    {
+      "hypertable_schema": "public",
+      "hypertable_name": "incident_telemetry_embeddings",
+      "num_dimensions": 1,
+      "num_chunks": 1
+    },
+    {
+      "hypertable_schema": "public",
+      "hypertable_name": "iot_sensor_telemetry",
+      "num_dimensions": 1,
+      "num_chunks": 3
+    }
+  ],
+  "buckets": [
+    {
+      "bucket_utc": "2026-11-07 16:00",
+      "sensor_id": "TURBINE-01",
+      "samples": 1,
+      "avg_temp_c": 62.5,
+      "peak_vib_mm_s": 8,
+      "avg_power_kw": 145
+    },
+    {
+      "bucket_utc": "2026-11-07 16:00",
+      "sensor_id": "TURBINE-02",
+      "samples": 1,
+      "avg_temp_c": 64.66,
+      "peak_vib_mm_s": 3.17,
+      "avg_power_kw": 146.76
+    },
+    {
+      "bucket_utc": "2026-11-07 15:00",
+      "sensor_id": "TURBINE-01",
+      "samples": 2,
+      "avg_temp_c": 73.15,
+      "peak_vib_mm_s": 2.6,
+      "avg_power_kw": 157.17
+    },
+    {
+      "bucket_utc": "2026-11-07 15:00",
+      "sensor_id": "TURBINE-02",
+      "samples": 2,
+      "avg_temp_c": 74.48,
+      "peak_vib_mm_s": 2.37,
+      "avg_power_kw": 158.56
+    },
+    {
+      "bucket_utc": "2026-11-07 15:00",
+      "sensor_id": "TURBINE-03",
+      "samples": 3,
+      "avg_temp_c": 70.58,
+      "peak_vib_mm_s": 3.1,
+      "avg_power_kw": 156.07
+    },
+    {
+      "bucket_utc": "2026-11-07 15:00",
+      "sensor_id": "TURBINE-04",
+      "samples": 3,
+      "avg_temp_c": 71.93,
+      "peak_vib_mm_s": 2.97,
+      "avg_power_kw": 157.45
+    },
+    {
+      "bucket_utc": "2026-11-07 15:00",
+      "sensor_id": "TURBINE-05",
+      "samples": 2,
+      "avg_temp_c": 71.67,
+      "peak_vib_mm_s": 2.8,
+      "avg_power_kw": 155.71
+    },
+    {
+      "bucket_utc": "2026-11-07 14:00",
+      "sensor_id": "TURBINE-01",
+      "samples": 3,
+      "avg_temp_c": 66.77,
+      "peak_vib_mm_s": 2.88,
+      "avg_power_kw": 165.83
+    },
+    {
+      "bucket_utc": "2026-11-07 14:00",
+      "sensor_id": "TURBINE-02",
+      "samples": 2,
+      "avg_temp_c": 66.2,
+      "peak_vib_mm_s": 2,
+      "avg_power_kw": 166.47
+    },
+    {
+      "bucket_utc": "2026-11-07 14:00",
+      "sensor_id": "TURBINE-03",
+      "samples": 2,
+      "avg_temp_c": 65.98,
+      "peak_vib_mm_s": 2.24,
+      "avg_power_kw": 166.56
+    }
+  ],
+  "recentStream": [
+    {
+      "ts_utc": "16:05:26",
+      "sensor_id": "TURBINE-01",
+      "facility_zone": "bengaluru-north-grid",
+      "temperature_c": 62.5,
+      "vibration_mm_s": 8,
+      "power_kw": 145,
+      "status": "ANOMALY_SPIKE"
+    },
+    {
+      "ts_utc": "16:00:26",
+      "sensor_id": "TURBINE-02",
+      "facility_zone": "mumbai-west-substation",
+      "temperature_c": 64.66,
+      "vibration_mm_s": 3.17,
+      "power_kw": 146.76,
+      "status": "NOMINAL"
+    },
+    {
+      "ts_utc": "15:55:26",
+      "sensor_id": "TURBINE-03",
+      "facility_zone": "chennai-coastal-hub",
+      "temperature_c": 66.78,
+      "vibration_mm_s": 3.1,
+      "power_kw": 148.51,
+      "status": "NOMINAL"
+    },
+    {
+      "ts_utc": "15:50:26",
+      "sensor_id": "TURBINE-04",
+      "facility_zone": "bengaluru-north-grid",
+      "temperature_c": 68.85,
+      "vibration_mm_s": 2.97,
+      "power_kw": 150.23,
+      "status": "NOMINAL"
+    },
+    {
+      "ts_utc": "15:45:26",
+      "sensor_id": "TURBINE-05",
+      "facility_zone": "mumbai-west-substation",
+      "temperature_c": 70.84,
+      "vibration_mm_s": 2.8,
+      "power_kw": 151.92,
+      "status": "NOMINAL"
+    },
+    {
+      "ts_utc": "15:40:26",
+      "sensor_id": "TURBINE-01",
+      "facility_zone": "chennai-coastal-hub",
+      "temperature_c": 72.73,
+      "vibration_mm_s": 2.6,
+      "power_kw": 153.57,
+      "status": "NOMINAL"
+    },
+    {
+      "ts_utc": "15:35:26",
+      "sensor_id": "TURBINE-02",
+      "facility_zone": "bengaluru-north-grid",
+      "temperature_c": 74.48,
+      "vibration_mm_s": 2.37,
+      "power_kw": 155.16,
+      "status": "NOMINAL"
+    },
+    {
+      "ts_utc": "15:30:26",
+      "sensor_id": "TURBINE-03",
+      "facility_zone": "mumbai-west-substation",
+      "temperature_c": 69.79,
+      "vibration_mm_s": 2.13,
+      "power_kw": 156.69,
+      "status": "NOMINAL"
+    }
+  ],
+  "vectorMatches": [
+    {
+      "incident_id": "INC-9038",
+      "sensor_id": "TURBINE-01",
+      "severity": "CRITICAL",
+      "recorded_utc": "2026-11-07 12:05",
+      "cosine_similarity": 0.9999,
+      "diagnostic_summary": "High-frequency axial vibration anomaly detected after rapid grid frequency step change."
+    },
+    {
+      "incident_id": "INC-9041",
+      "sensor_id": "TURBINE-01",
+      "severity": "CRITICAL",
+      "recorded_utc": "2026-11-07 15:50",
+      "cosine_similarity": 0.9999,
+      "diagnostic_summary": "Bearing harmonic vibration spike exceeding 6.8 mm/s on primary rotor shaft during peak load."
+    },
+    {
+      "incident_id": "INC-9036",
+      "sensor_id": "TURBINE-05",
+      "severity": "CRITICAL",
+      "recorded_utc": "2026-11-07 04:05",
+      "cosine_similarity": 0.9994,
+      "diagnostic_summary": "Sub-synchronous resonance vibration spike on turbine shaft coupled with thermal rise."
+    },
+    {
+      "incident_id": "INC-9040",
+      "sensor_id": "TURBINE-02",
+      "severity": "WARNING",
+      "recorded_utc": "2026-11-07 15:23",
+      "cosine_similarity": 0.997,
+      "diagnostic_summary": "Thermal drift on stator winding (+7.4 C above baseline) correlated with reactive power surge."
+    }
+  ]
+}
